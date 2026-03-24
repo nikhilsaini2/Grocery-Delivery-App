@@ -230,3 +230,5 @@ export default function LoginPage({ navigation }: any) {
     </SafeAreaView>
   );
 }
+
+// Adding Form Validation
