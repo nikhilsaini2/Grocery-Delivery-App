@@ -226,3 +226,5 @@ const styles = StyleSheet.create({
     color: '#555',
   },
 });
+
+// Cart quantity handlers
