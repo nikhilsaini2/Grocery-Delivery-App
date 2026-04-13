@@ -344,3 +344,5 @@ const HomeScreen = () => {
 };
 
 export default HomeScreen;
+
+// Load Top Picks
