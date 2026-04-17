@@ -347,3 +347,4 @@ export default HomeScreen;
 
 // Load Top Picks
 // Category Horizontal chips rendering
+// Badge hooks
