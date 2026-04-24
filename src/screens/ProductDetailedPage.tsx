@@ -291,3 +291,5 @@ const styles = StyleSheet.create({
     color: '#111827',
   },
 });
+
+// Brand stock badge display
