@@ -293,3 +293,4 @@ const styles = StyleSheet.create({
 });
 
 // Brand stock badge display
+// Redux cart connector bindings
