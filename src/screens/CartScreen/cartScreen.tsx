@@ -129,3 +129,5 @@ const CartScreen = () => {
 };
 
 export default CartScreen;
+
+// Subtotal computations
