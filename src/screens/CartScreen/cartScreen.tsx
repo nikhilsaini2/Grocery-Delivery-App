@@ -131,3 +131,4 @@ const CartScreen = () => {
 export default CartScreen;
 
 // Subtotal computations
+// Quantity selectors
