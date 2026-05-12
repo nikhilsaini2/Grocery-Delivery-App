@@ -175,3 +175,5 @@ const PayScreen = () => {
 };
 
 export default PayScreen;
+
+// Credit card validators
