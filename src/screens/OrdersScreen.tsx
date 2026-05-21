@@ -151,3 +151,4 @@ const styles = StyleSheet.create({
 });
 
 // Retrieve from local storage
+// Render order details list
