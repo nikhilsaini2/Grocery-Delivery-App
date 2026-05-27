@@ -18,3 +18,5 @@ export default function App() {
     </Provider>
   );
 }
+
+// StatusBar configured
