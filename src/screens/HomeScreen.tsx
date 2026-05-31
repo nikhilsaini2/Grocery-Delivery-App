@@ -14,7 +14,7 @@ import {
   Keyboard,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 import styles from './styles';
 import {
@@ -26,7 +26,6 @@ import BannerCarousel from '../components/BannerCarousel';
 import CategoryChip from '../components/home/CategoryChip';
 import ProductCard from '../components/home/ProductCard';
 import SectionHeader from '../components/home/SectionHeader';
-import { addOrder } from '../features/ordersSlice';
 import { Product } from '../types';
 
 const categories = FOOD_CATEGORIES;
@@ -40,10 +39,9 @@ const DATA = [
 
 const HomeScreen = () => {
   const navigation = useNavigation<any>();
-  const dispatch = useDispatch();
   const currentUser = useSelector((state: any) => state.auth.currentUser);
   const cartCount = useSelector((state: any) => state.cart.items.length);
-  const [error, setError] = useState<string | null>(null);
+  const [, setError] = useState<string | null>(null);
 
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
@@ -56,8 +54,6 @@ const HomeScreen = () => {
   const [query, setQuery] = useState<string>('');
   const [searchResults, setSearchResults] = useState<any[]>([]);
   const [searchLoading, setSearchLoading] = useState(false);
-
-  const order = useSelector((state: any) => state.order.orders);
 
   useEffect(() => {
     fetchTopPicks();
@@ -344,8 +340,3 @@ const HomeScreen = () => {
 };
 
 export default HomeScreen;
-
-// Load Top Picks
-// Category Horizontal chips rendering
-// Badge hooks
-// Live search query logic
