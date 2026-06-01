@@ -1,6 +1,6 @@
 import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
-import React, { useState } from 'react';
+import React from 'react';
 import {
   View,
   Text,
@@ -149,6 +149,3 @@ const styles = StyleSheet.create({
     fontWeight: '500',
   },
 });
-
-// Retrieve from local storage
-// Render order details list

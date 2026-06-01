@@ -1,6 +1,6 @@
 import { Ionicons } from '@expo/vector-icons';
 import { useRoute, useNavigation } from '@react-navigation/native';
-import React, { useState } from 'react';
+import React from 'react';
 import {
   View,
   Text,
@@ -291,6 +291,3 @@ const styles = StyleSheet.create({
     color: '#111827',
   },
 });
-
-// Brand stock badge display
-// Redux cart connector bindings

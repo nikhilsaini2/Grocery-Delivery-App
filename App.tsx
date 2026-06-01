@@ -12,12 +12,9 @@ export default function App() {
       <PersistGate loading={null} persistor={persistor}>
         <NavigationContainer>
           <RootNavigator />
-          
+          <StatusBar style="auto" />
         </NavigationContainer>
       </PersistGate>
     </Provider>
   );
 }
-
-// StatusBar configured
-// Font load checks
