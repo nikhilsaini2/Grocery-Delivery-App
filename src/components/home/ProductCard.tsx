@@ -79,9 +79,9 @@ export default function ProductCard({ product }: Props) {
           <Text style={styles.quantityText}>{quantity}</Text>
           <TouchableOpacity
             onPress={handleIncrement}
-            disabled={quantity == 10}
+            disabled={quantity === 10}
             style={
-              quantity == 10
+              quantity === 10
                 ? { ...styles.plusButton, opacity: 0.5 }
                 : styles.plusButton
             }
@@ -226,5 +226,3 @@ const styles = StyleSheet.create({
     color: '#555',
   },
 });
-
-// Cart quantity handlers
