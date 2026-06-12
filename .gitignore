@@ -31,6 +31,7 @@ yarn-error.*
 *.pem
 
 # local env files
+.env*.local
 
 # typescript
 *.tsbuildinfo
@@ -39,3 +40,7 @@ yarn-error.*
 /ios
 /android
 
+# local development files
+.env
+.env.local
+GLOBAL_CONTEXT.md
