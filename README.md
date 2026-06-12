@@ -1,4 +1,4 @@
-# 🛒 FreshCart - Grocery Delivery App
+# 🛒 Zesto-E-Commerce-App
 
 [![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactnative.dev/)
 [![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
@@ -6,21 +6,13 @@
 [![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white)](https://redux-toolkit.js.org/)
 [![React Navigation](https://img.shields.io/badge/React_Navigation-3E843E?style=for-the-badge&logo=reactnavigation&logoColor=white)](https://reactnavigation.org/)
 
-A professional-grade, cross-platform **Grocery Delivery & E-Commerce Mobile Application** built using **React Native**, **Expo SDK 54**, and **TypeScript**.
-
-This application connects to the real-time product catalogs and category lists from the **DummyJSON API**, featuring fully persistent state management (via Redux Toolkit & Redux Persist), animated checkout flows, custom address configurations, and production-grade developer tooling (ESLint, Prettier, Husky).
+**Zesto-E-Commerce-App** provides a seamless, modern, app-like shopping experience for grocery and household products. Designed with mobile-first usability in mind, the application features glassmorphism-inspired UI overlays, smooth category transitions, and a persistent checkout workflow that allows users to place orders offline.
 
 ---
 
-## 🎯 Project Overview
+### 📸 App Preview & Screenshots
 
-FreshCart provides a seamless, modern, app-like shopping experience for grocery and household products. Designed with mobile-first usability in mind, the application features glassmorphism-inspired UI overlays, smooth category transitions, and a persistent checkout workflow that allows users to place orders offline.
-
-### Key Objectives
-
-- **Optimized Mobile Performance**: Leverages native screens and modular styling to ensure smooth 60fps animations.
-- **Robust State Management**: Implements clean Redux slices for catalog search, cart mutations, delivery addresses, and past orders.
-- **Recruiter-Ready Standards**: Written in clean, scalable TypeScript with complete path patterns and strict linting.
+To view the complete interactive UI designs, feature slides, and app screens: 👉 [View the App Preview Slides on Google Drive](https://drive.google.com/file/d/1zTFTKACve0-GNRhMjnIp5O2sYaCKcWfy/view?usp=sharing)
 
 ---
 
@@ -51,7 +43,7 @@ FreshCart provides a seamless, modern, app-like shopping experience for grocery 
 
 ## 🚀 Installation & Setup
 
-Follow these steps to run FreshCart locally in your simulator or physical device:
+Follow these steps to run Zesto-E-Commerce-App locally in your simulator or physical device:
 
 ### Prerequisites
 
